@@ -1,4 +1,5 @@
-# DoH Resolver
+# DoH Resolver 
+![Crates.io Version](https://img.shields.io/crates/v/rdoh)
 
 A simple Rust command-line DNS-over-HTTPS (DoH) client, similar to `dig`
 
