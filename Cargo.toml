@@ -2,6 +2,7 @@
 name = "doh"
 version = "0.1.0"
 edition = "2024"
+description = "DoH resolver"
 authors = ["Gabriele Cabrini <gabrielecabriniii@gmail.com>"]
 license = "MIT"
 repository = "https://github.com/gabrielecabrini/doh"
