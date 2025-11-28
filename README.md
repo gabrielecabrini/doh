@@ -34,15 +34,15 @@ rdoh example.com
 
 Specify a record type
 ```
-rdoh example.com aaaa
+rdoh example.com AAAA
 ```
 
 Using a custom DoH server (default is [cloudflare.com](https://cloudflare-dns.com/dns-query))
 ```
-rdoh example.com aaaa https://dns.google/dns-query
+rdoh example.com AAAA https://dns.google/dns-query
 ```
 
 Enable DO / CD flags
 ```
-rdoh example.com a --do --cd
+rdoh example.com A --do --cd
 ```
