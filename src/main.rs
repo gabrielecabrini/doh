@@ -9,7 +9,7 @@ struct Args {
     #[arg(required = true)]
     name: String,
 
-    #[arg(value_enum, required = false)]
+    #[arg(value_enum, required = false, ignore_case = true)]
     r#type: Option<RRType>,
 
     #[arg(
